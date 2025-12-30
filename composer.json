@@ -1,0 +1,23 @@
+{
+  "name": "sahrulgunawan-id/files-manager-ui",
+  "description": "A simple file manager UI built with PHP.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sahrul Gunawan ID",
+      "email": "sahrulgunawantlogo555@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
